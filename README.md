@@ -13,7 +13,7 @@ Mesa graphics https://github.com/Griggorii/mesa-20.1.2_V15-libdrm_ubuntu-19.04-2
 
 Original build video driver core + zfs module nvidia-440.100-zfs-my-build-driver.tar.xz nvidia-440.100 , nvidia-uvm.ko , nvidia-modeset.ko , nvidia-drm.ko , nvidia.ko 
 
-hmm variant: 
+hmm variant nvidia-drm: 
 
 $$ sudo mkdir /lib/modules/5.6.0-1020-oem/updates
 
