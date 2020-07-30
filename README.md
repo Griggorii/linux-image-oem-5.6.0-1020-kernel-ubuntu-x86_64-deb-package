@@ -1,5 +1,5 @@
 # linux-image-oem-5.6.0-1020-kernel-ubuntu-x86_64-deb-package
-linux-image-oem-5.6.0-1020 , kernel , ubuntu , x86_64 , deb , package , build , nvidia-440.100 , nvidia-uvm.ko , nvidia-modeset.ko , nvidia-drm.ko , nvidia.ko , zfs-dkms-0.8.3
+linux-image-oem-5.6.0-1020 , kernel , ubuntu , x86_64 , deb , package , build , nvidia-440.100 , nvidia-uvm.ko , nvidia-modeset.ko , nvidia-drm.ko , nvidia.ko , zfs-dkms-0.8.3 , icp.ko , spl.ko , zavl.ko , zcommon.ko ,
 
 kernel linux-image-oem-5.6.0-1020 download: https://yadi.sk/d/f8YrUOtvdnD6gA
 
