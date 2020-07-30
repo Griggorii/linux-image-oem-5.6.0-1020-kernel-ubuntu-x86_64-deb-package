@@ -31,6 +31,8 @@ EOF
 
 $$ sudo mv nvidia-kms.conf /lib/modprobe.d
 
+install nvidia-kernel-source-440_440.100-0ubuntu0.20.04.1_amd64.deb nvidia-kernel-common-440_440.100-0ubuntu0.20.04.1_amd64.deb  nvidia-dkms-440_440.100-0ubuntu0.20.04.1_amd64.deb
+
 Edit grub
 
 /etc/default/grub edit string | GRUB_CMDLINE_LINUX_DEFAULT="ipv6.disable=1 crashkernel=false rhgb quiet splash nvidia-drm.modeset=1"
