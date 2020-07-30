@@ -21,7 +21,15 @@ $$ sudo mkdir /lib/modules/5.6.0-1020-oem/updates/dkms
 
 $$ sudo cp -r  nvidia-uvm.ko nvidia-modeset.ko nvidia-drm.ko nvidia.ko /lib/modules/5.6.0-1020-oem/updates/dkms
 
-$$ sudo update-initramfs -u -v
+$$ cat  << EOF > nvidia-kms.conf
+options nvidia-drm modeset=1
+EOF
+
+$$ sudo mv nvidia-kms.conf /lib/modprobe.d
+
+/etc/default/grub edit string | GRUB_CMDLINE_LINUX_DEFAULT="ipv6.disable=1 crashkernel=false rhgb quiet splash nvidia-drm.modeset=1"
+
+$$ sudo update-initramfs -u -v && sudo update-grub
 
 Reboot command
 
