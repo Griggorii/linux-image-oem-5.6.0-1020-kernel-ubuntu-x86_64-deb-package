@@ -48,6 +48,8 @@ Run /var/log/gpu-manager.log
 Looking for nvidia modules in /lib/modules/5.6.0-1020-oem/updates/dkms
 Found nvidia module: nvidia-drm.ko
 
+https://github.com/Griggorii/linux-image-oem-5.6.0-1020-kernel-ubuntu-x86_64-deb-package/blob/master/Nvidia-Optimus.png
+
 Далее не на чем просто работать по скольку нету ноутбука или пк в котором есть карта нвидиа за место optimus технологии , на оптимусе может и не показать что nvidia-drm работает по скольку это огрызок видео чипа.
 
 
