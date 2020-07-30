@@ -3,9 +3,9 @@ linux-image-oem-5.6.0-1020 , kernel , ubuntu , x86_64 , deb , package , build , 
 
 kernel linux-image-oem-5.6.0-1020 download: https://yadi.sk/d/f8YrUOtvdnD6gA
 
-Download fix securetty sudo cp -r securetty /etc
+Download fix securetty command | sudo cp -r securetty /etc
 
-Download anacrontab default sudo cp -r anacrontab /etc
+Download anacrontab default command | sudo cp -r anacrontab /etc
 
 kernel linux-image-5.6.19 clang version 10.0.0-4ubuntu1 download: https://yadi.sk/d/8IwmzgPQUlLBBQ signature oem-5.6.0-1020
 
