@@ -13,6 +13,6 @@ Mesa graphics https://github.com/Griggorii/mesa-20.1.2_V15-libdrm_ubuntu-19.04-2
 
 Данное ядро linux-image-oem-5.6.0-1020 поддерживает драйвера от nvidia , snapd и много других вещей , но для его компиляции я использовал dev от своего предыдущего ядра который это не поддерживает linux-libc-dev_5.8.8 от https://github.com/Griggorii/linux-image-kernel-5.8.8-zstd-dkms-support-light-kernel-x86_64
 
-Original build video driver core + zfs module nvidia-440.100-zfs-my-build-driver.tar.xz nvidia-440.100 , nvidia-uvm.ko , nvidia-modeset.ko , nvidia-drm.ko , nvidia.ko
+Original build video driver core + zfs module nvidia-440.100-zfs-my-build-driver.tar.xz nvidia-440.100 , nvidia-uvm.ko , nvidia-modeset.ko , nvidia-drm.ko , nvidia.ko hmm variant: sudo cp -r  nvidia-uvm.ko nvidia-modeset.ko nvidia-drm.ko nvidia.ko /lib/modules/5.6.0-1020-oem/kernel/drivers/video && sudo update-initramfs -u -v
 
 
