@@ -21,7 +21,7 @@ $$ sudo mkdir /lib/modules/5.6.0-1020-oem/updates/dkms
 
 $$ sudo cp -r  nvidia-uvm.ko nvidia-modeset.ko nvidia-drm.ko nvidia.ko /lib/modules/5.6.0-1020-oem/updates/dkms
 
-$$ sudo apt update && sudo apt --reinstall install xserver-xorg-video-nouveau -y && sudo apt purge xserver-xorg-video-nouveau -y
+$$ sudo apt update && sudo apt --reinstall install xserver-xorg-video-nouveau nvidia-prime bumblebee-nvidia bbswitch-dkms bumblebee primus-libs -y && sudo apt purge xserver-xorg-video-nouveau -y
 
 $$ cat  << EOF > nvidia-kms.conf
 options nvidia-drm modeset=1
