@@ -15,17 +15,17 @@ Original build video driver core + zfs module nvidia-440.100-zfs-my-build-driver
 
 hmm variant: 
 
-sudo mkdir /lib/modules/5.6.0-1020-oem/updates
+$$ sudo mkdir /lib/modules/5.6.0-1020-oem/updates
 
-sudo mkdir /lib/modules/5.6.0-1020-oem/updates/dkms
+$$ sudo mkdir /lib/modules/5.6.0-1020-oem/updates/dkms
 
-sudo cp -r  nvidia-uvm.ko nvidia-modeset.ko nvidia-drm.ko nvidia.ko /lib/modules/5.6.0-1020-oem/updates/dkms
+$$ sudo cp -r  nvidia-uvm.ko nvidia-modeset.ko nvidia-drm.ko nvidia.ko /lib/modules/5.6.0-1020-oem/updates/dkms
 
-sudo update-initramfs -u -v
+$$ sudo update-initramfs -u -v
 
-Reboot
+Reboot command
 
-ubuntu-drivers devices
+$$ ubuntu-drivers devices
 
 Run /var/log/gpu-manager.log
 
