@@ -25,6 +25,8 @@ sudo update-initramfs -u -v
 
 Reboot
 
+ubuntu-drivers devices
+
 Run /var/log/gpu-manager.log
 
 Looking for nvidia modules in /lib/modules/5.6.0-1020-oem/updates/dkms
