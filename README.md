@@ -27,6 +27,8 @@ EOF
 
 $$ sudo mv nvidia-kms.conf /lib/modprobe.d
 
+Edit grub
+
 /etc/default/grub edit string | GRUB_CMDLINE_LINUX_DEFAULT="ipv6.disable=1 crashkernel=false rhgb quiet splash nvidia-drm.modeset=1"
 
 $$ sudo update-initramfs -u -v && sudo update-grub
