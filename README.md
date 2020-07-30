@@ -15,6 +15,8 @@ Original build video driver core + zfs module nvidia-440.100-zfs-my-build-driver
 
 hmm variant nvidia-drm: 
 
+inpack nvidia-440.100-zfs-my-build-driver.tar.xz run in terminal folder nvidia/440.100/5.6.0-1020-oem/x86_64/module
+
 $$ sudo mkdir /lib/modules/5.6.0-1020-oem/updates
 
 $$ sudo mkdir /lib/modules/5.6.0-1020-oem/updates/dkms
