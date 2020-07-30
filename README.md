@@ -27,6 +27,8 @@ Reboot command
 
 $$ ubuntu-drivers devices
 
+$$ lspci -vnn | grep -A12 '\''[030[02]\]' | grep -Ei "vga|3d|display|kernel"
+
 Run /var/log/gpu-manager.log
 
 Looking for nvidia modules in /lib/modules/5.6.0-1020-oem/updates/dkms
