@@ -25,4 +25,9 @@ sudo update-initramfs -u -v
 
 Reboot
 
+Run /var/log/gpu-manager.log
+
+Looking for nvidia modules in /lib/modules/5.6.0-1020-oem/updates/dkms
+Found nvidia module: nvidia-drm.ko
+
 
