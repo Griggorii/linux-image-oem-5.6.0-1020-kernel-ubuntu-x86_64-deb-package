@@ -51,6 +51,8 @@ $$ lspci -vnn | grep -A12 '\''[030[02]\]' | grep -Ei "vga|3d|display|kernel"
 
 Run /var/log/gpu-manager.log
 
+Tutorial redirect display driver https://askubuntu.com/questions/264247/proprietary-nvidia-drivers-with-efi-on-mac-to-prevent-overheating/613573#613573
+
 Looking for nvidia modules in /lib/modules/5.6.0-1020-oem/updates/dkms
 Found nvidia module: nvidia-drm.ko
 
