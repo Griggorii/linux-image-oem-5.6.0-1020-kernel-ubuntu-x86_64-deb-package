@@ -60,7 +60,7 @@ https://github.com/Griggorii/linux-image-oem-5.6.0-1020-kernel-ubuntu-x86_64-deb
 
 Далее не на чем просто работать по скольку нету ноутбука или пк в котором есть карта нвидиа за место optimus технологии , на оптимусе может и не показать что nvidia-drm работает по скольку это огрызок видео чипа.
 
-Test kernel+moodule original nvidia-drm perfomance tester s youtuber s send rezultate benchmark link youtube video griggoriigmail.com
+Test kernel+moodule original nvidia-drm perfomance tester s youtuber s send rezultate benchmark link youtube video griggoriigmail.com and send alternative notify https://www.youtube.com/channel/UC6WtVfU5gi2CQ4ionzbz1CQ?view_as=subscriber
 
 Recommended OS https://github.com/Griggorii/Linux_OS20.04_V2_X64_By_Griggorii.iso_ubuntu_focal_fossa-linux-image-5.4.0-29 
 
