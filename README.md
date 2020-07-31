@@ -43,6 +43,8 @@ Reboot command
 
 $$ ubuntu-drivers devices
 
+$$ dmesg |grep nvidia
+
 $$ inxi -G
 
 $$ lspci -vnn | grep -A12 '\''[030[02]\]' | grep -Ei "vga|3d|display|kernel"
