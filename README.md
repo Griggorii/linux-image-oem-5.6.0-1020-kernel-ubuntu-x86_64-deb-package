@@ -1,5 +1,5 @@
 # linux-image-oem-5.6.0-1020-kernel-ubuntu-x86_64-deb-package
-linux-image-oem-5.6.0-1020 , kernel , ubuntu , x86_64 , deb , dual gpu , nvidia dlss 3.0 , superior image quality , super high color , package ( build original module nvidia-440.100 , nvidia-uvm.ko , nvidia-modeset.ko , nvidia-drm.ko , nvidia.ko ) , ( build original module zfs-dkms-0.8.3 , icp.ko , spl.ko , zavl.ko , zcommon.ko , zfs.ko , zlua.ko , znvpair.ko , zunicode.ko)
+linux-image-oem-5.6.0-1020 , kernel , ubuntu , x86_64 , deb , dual gpu , eGPU , nvidia dlss 3.0 , superior image quality , super high color , package ( build original module nvidia-440.100 , nvidia-uvm.ko , nvidia-modeset.ko , nvidia-drm.ko , nvidia.ko ) , ( build original module zfs-dkms-0.8.3 , icp.ko , spl.ko , zavl.ko , zcommon.ko , zfs.ko , zlua.ko , znvpair.ko , zunicode.ko)
 
 kernel linux-image-oem-5.6.0-1020 download: https://yadi.sk/d/3EaGiCxmaQyf8A
 
