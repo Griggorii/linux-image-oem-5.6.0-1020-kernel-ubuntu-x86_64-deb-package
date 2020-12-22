@@ -3,6 +3,8 @@ linux-image-oem-5.6.0-1020 , kernel , ubuntu , x86_64 , deb , dual gpu , eGPU , 
 
 kernel linux-image-oem-5.6.0-1020 deb all download: https://github.com/Griggorii/linux-image-oem-5.6.0-1020-kernel-ubuntu-x86_64-deb-package/releases/tag/5.6.0
 
+Griggorii@gmail.com только настоящие технологии bitcoin support real technology new fix 1Fps612daCcb7vYN2bFDRoDuUnrjJESDmk
+
 New kernel 5.9.2 low memory https://github.com/Griggorii/linux-image-5.9.2_amd64.deb_light_zstd_ultra_fast_kernel_memory_super_low
 
 Download fix securetty command | sudo cp -r securetty /etc
