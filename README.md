@@ -1,5 +1,5 @@
 # linux-image-oem-5.6.0-1020-kernel-ubuntu-x86_64-deb-package
-linux-image-oem-5.6.0-1020 , kernel , ubuntu , x86_64 , deb , dual gpu , eGPU , nvidia dlss 3.0 , superior image quality , super high color , package ( build original module nvidia-440.100 , nvidia-uvm.ko , nvidia-modeset.ko , nvidia-drm.ko , nvidia.ko ) , ( build original module zfs-dkms-0.8.3 , icp.ko , spl.ko , zavl.ko , zcommon.ko , zfs.ko , zlua.ko , znvpair.ko , zunicode.ko , support anbox snap , support open afs /afs/.cern.ch /afs/kth.se , support fs zfs rpool , bpool)
+linux-image-oem-5.6.0-1020 , kernel , ubuntu , x86_64 , deb , dual gpu , eGPU , nvidia dlss 3.0 , superior image quality , super high color , package ( build original module nvidia-440.100 , nvidia-uvm.ko , nvidia-modeset.ko , nvidia-drm.ko , nvidia.ko ) , ( build original module zfs-dkms-0.8.3 , icp.ko , spl.ko , zavl.ko , zcommon.ko , zfs.ko , zlua.ko , znvpair.ko , zunicode.ko , support anbox snap , support open afs /afs/.cern.ch /afs/kth.se /afs/sinenomine.net/ , support fs zfs rpool , bpool)
 
 kernel linux-image-oem-5.6.0-1020 deb all download: https://github.com/Griggorii/linux-image-oem-5.6.0-1020-kernel-ubuntu-x86_64-deb-package/releases/tag/5.6.0
 
